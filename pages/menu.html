@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <meta name="description" content="Las mejores pizzas y empanadas de Alicante con un toque de sabor argentino. Mira nuestros menus">
+    <meta name="keywords" content="Pizzas, Empanadas, Cerveza, Gastronomia Argentina, Promociones, Pedidos">
+    <title>Los Primos - Menu</title>
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="icon" href="../img/redondo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Koulen&family=Lobster&family=Oleo+Script&family=Permanent+Marker&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7aec642fda.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: rgb(180, 35, 35);">    
+        <nav class="navbar navbar-expand-lg">    
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html"><img src="../img/redondo.png"  alt="logo"></a>
+                <a class="navbar-brand" href="./index.html"><img src="../img/redondo.png"  alt="logo">   Pizzeria Los Primos</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -31,7 +34,7 @@
                         <a class="nav-link active" aria-current="page" href="./promos.html">Promos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./ubicacion.html">Ubicacion</a>
+                        <a class="nav-link active" aria-current="page" href="./pedidos.html">Pedidos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
@@ -42,67 +45,21 @@
         </nav>   
     </header>  
     <main>
-    <section class="container mt-5">
-        <div class="titulo-menu" style="text-align:center;">
-            <h1>Nuestros Menus</h1>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
-            <div class="col">
-                <div class="card text-bg-danger mb-3">
-                    <img src="../img/imagen.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Menu Pizzas</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural.</p>
-                    </div>
-                </div>
+        <section>
+            <div class="contenedor_menu">
+                <h1>MENU</h1>
+                <img src="../img/fotoprincipal.jpg" alt="">
+            </div> 
+        </section>
+        <section class="contenido-menu">
+            <div class="iframe-texto" data-aos="fade-down">
+                <p>Contamos con una variada carta donde podes encontrar pizzas, empanadas, cortes de carne y ademas de las conocidas tapas españolas. Siempre utilizando productos de alta calidad en cada uno de nuestros platos y brindado la atencion que se merecen nuestros clientes y comensales.</p>
             </div>
-            <div class="col">
-                <div class="card text-bg-danger mb-3">
-                    <img src="../img/imagen.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Menu empanadas</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-bg-danger mb-3">
-                    <img src="../img/imagen.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Menu Calzones</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-bg-danger mb-3">
-                    <img src="../img/imagen.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Minutas</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-bg-danger mb-3">
-                    <img src="../img/imagen.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Bebidas</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-bg-danger mb-3">
-                    <img src="../img/imagen.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Postres</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <div class="iframe-menu" data-aos="fade-up">
+                <iframe src="../docs/cartacompleta.pdf" frameborder="0"></iframe>
+            </div>   
+        </section>
+    
     </main>
     <footer class="pie">
         <div class="container_footer">
@@ -115,7 +72,7 @@
             </div>
             <div class="box">
                 <h2>Sobre Nosotros</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab cupiditate laboriosam eos corporis? Excepturi delectus adipisci, corrupti neque quam velit perferendis beatae optio ab.</p>                
+                <p>"Los Primos" en una pizzeria Argentina ubicada en Alicante desde 2010. Todo nuestro menu es inspirado en la exquisita comida Argentina.</p>                
             </div>
             <div class="box">
                 <h2>Seguinos</h2>
@@ -131,10 +88,10 @@
         </div>
         
     </footer>
-    
-    
-   
-    
 </body>  
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> 
+    AOS.init();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </html>
