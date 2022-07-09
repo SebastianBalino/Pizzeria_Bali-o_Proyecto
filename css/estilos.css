@@ -13,7 +13,7 @@ header {
     background-image: url(../img/the-backgroundheader.png);
     position: sticky;
     top: 0;
-    z-index: 999; 
+    z-index: 999;
 }
 
 .navbar-brand img {
@@ -28,6 +28,8 @@ header {
     color: white !important;
     
 }
+
+/* Media Queries */
 
 /* MOBILE */
 @media (max-width:576px) {
@@ -65,7 +67,7 @@ header {
 }
 
 .info_1 {
-    padding-top: 90px;
+    padding-top: 50px;
     width: 50%;
     
 }
@@ -84,6 +86,7 @@ header {
     border-radius: 10px;
 }
 
+/* Media Queries */
 
 /* MOBILE */  
 @media (max-width:576px) {
@@ -180,7 +183,7 @@ header {
     }
 
 }
-/*  -- DEKSTOP -- */
+/* DEKSTOP */
 @media (min-width: 992px) {   
 
     .contenedor_index img {
@@ -269,8 +272,9 @@ header {
     font-size: 15px;
 }
 
-/* MOBILE */
+/* Media Queries */
 
+/* MOBILE */
 @media (max-width:576px) {
     .pie .container_footer {
         width: 100%;
@@ -335,11 +339,11 @@ header {
 .ubicacion p {
     text-align: center;
     font-family: 'Koulen', cursive;
-    padding-bottom: 20px;
+    padding-top: 60px;
 }
 .iframe {    
     text-align: center;  
-    padding-top: 25px;
+    padding-top: 10px;
     padding-bottom: 25px;
     border-radius: 10px;
 
@@ -355,16 +359,16 @@ header {
 .formulario {
     width: 60%;
 }
+
 .titulo-form{
     text-align: center;
     padding-bottom: 30px;
 
 }   
 
+/* Media Queries */
 
-
-/* === RESPONSIVE === */
-/* -- MOBILE -- */
+/* MOBILE  */
 @media (max-width: 576px) {
     .contenedor_contacto img {
         width: 100%;
@@ -378,7 +382,7 @@ header {
         padding: 2%;
         font-family: 'Koulen', cursive;
         font-size: 75px;
-        padding-top: 40px;
+        padding-top: 10px;
         letter-spacing: 2px;
         word-spacing: 2px;
         color: white; 
@@ -387,8 +391,15 @@ header {
         width: 400px;
         height: 400px;
     }
+    .formulario {
+        border: 2px black solid;
+        border-radius: 10px;
+        padding:  15px;
+        background-image: url(../img/the-backgroundheader.png);
+        width: 90%;
+    }
 }
-/* -- TABLET -- */
+/* TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
     .contenedor_contacto img {
         width: 100%;
@@ -413,8 +424,15 @@ header {
         padding-top: 0px;
         padding-bottom: 0px;
     }
+    .formulario {
+        border: 2px black solid;
+        border-radius: 10px;
+        padding:  15px;
+        background-image: url(../img/the-backgroundheader.png);
+    }
+    
 } 
-/* -- DESKTOP -- */
+/* DESKTOP */
 @media (min-width: 992px) {   
 
     .contenedor_contacto img {
@@ -439,10 +457,16 @@ header {
         width: 500px;
         height: 400px; 
         padding-top: 0px;
-        padding-bottom: 0px;
+        padding-bottom: 90px;
     }
     .contenido_contacto {
         display: flex;
+        border: 2px solid black;
+        border-radius: 15px;
+        margin: 50px;
+        padding-top: 0px;
+        background-image: url(../img/the-backgroundheader.png);
+        height: 550px;
     } 
     .ubicacion {
         padding-left: 50px;
@@ -483,8 +507,9 @@ header {
 }
 
 
-/* === RESPONSIVE === */
-/* -- MOBILE -- */
+/* Media Queries */
+
+/*  MOBILE */
 @media (max-width: 576px) {
     .contenedor_pedidos img {
         width: 100%;
@@ -518,6 +543,12 @@ header {
         align-content: center;
         justify-content: center;
         align-items: center;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 20px;
+        padding-bottom: 10px;
+        background-image: url(../img/the-backgroundheader.png);
+        
         
     }
     .pedidos-titulo h3{
@@ -526,7 +557,7 @@ header {
     }
 }
 
-/* -- TABLET -- */
+/* TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
     .contenedor_pedidos img {
         width: 100%;
@@ -559,6 +590,11 @@ header {
         align-content: center;
         justify-content: center;
         align-items: center;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 20px;
+        padding-bottom: 10px;
+        background-image: url(../img/the-backgroundheader.png);
         
     }
     .pedidos-titulo h3{
@@ -566,7 +602,7 @@ header {
         padding-top: 10px;
     }
 } 
-/* -- DESKTOP -- */
+/* DESKTOP */
 @media (min-width: 992px) {   
     .pedidos-form {
         display: flex;    
@@ -591,7 +627,8 @@ header {
         width: 500px;
         height: auto;
         border-radius: 7px; 
-        padding-top: 45px;
+        padding-top: 20px;
+
     }
     .imagen-pedidos  {
         width: 600px;
@@ -618,42 +655,22 @@ header {
         color: white; 
         padding-top: 150px;
     }
+    .pedidos-form {
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 50px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        background-image: url(../img/the-backgroundheader.png);
+        
+    } 
+    .pedidos-titulo {
+        padding-top: 10px;
+    }
+    
 } 
 
-
-/* -- MOBILE -- */
-
-
-/* -- TABLET -- */
-@media (min-width: 576px) and (max-width: 992px) {
-    
-    
-}
-/* -- DESKTOP -- */
-@media (min-width: 992px) {
-    
-    
-}
-
 /* === PROMOS === */
-
-#carouselExampleCaptions {
-    width: 60%;
-    display: flex;
-    align-content: center;
-    text-align: center;
-    flex-direction: column;   
-    padding-top: 20px; 
-    padding-bottom: 40px;
-}
-.section-promos {
-    display: flex;
-    justify-content: center;
-}
-
-.carousel-item {
-    justify-content: center
-}
 .contenedor_promos {
     position: relative;
     display: flex;
@@ -669,11 +686,16 @@ header {
 .texto-promos{
     text-align: center;
     padding-top: 20px;
-
+}
+.card-body {
+    background-image: url(../img/the-backgroundheader.png);
+    color: rgb(34, 32, 32) !important
 }
 
-/* === RESPONSIVE === */
-/* -- MOBILE -- */
+
+/* Media Queries */
+
+/* MOBILE */
 @media (max-width: 576px) {
     .contenedor_promos img {
         width: 100%;
@@ -695,7 +717,7 @@ header {
 }
 
 
-/* -- TABLET -- */
+/* TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
     .contenedor_promos img {
         width: 100%;
@@ -717,8 +739,7 @@ header {
     
 } 
 
-/* -- DESKTOP -- */
-
+/* DESKTOP  */
 @media (min-width: 992px) {   
 
     .contenedor_promos img {
@@ -739,6 +760,10 @@ header {
         color: white; 
         padding-top: 150px;
     }
+    .texto-promos {
+        padding-top: 45px;
+    }
+
 } 
 
 /* === MENU === */
@@ -750,19 +775,39 @@ header {
     font-family: 'Permanent Marker', cursive;
 }
 
-.iframe-texto {
+.menu-texto {
     text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+}
+
+#carouselExampleCaptions {
+    width: 350px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;   
+    padding-top: 20px; 
+    padding-bottom: 40px;
+    
+}
+.section-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 20px;
 }
-.iframe-menu {
-    text-align: center;
-    padding-bottom: 20px;
+
+.carousel-item {
+    justify-content: center
 }
 
 
-
-/* === RESPONSIVE === */
-/* -- MOBILE -- */
+/* Media Queries */
+/* MOBILE */
 @media (max-width: 576px) {
     .contenedor_menu img {
         width: 100%;
@@ -782,7 +827,7 @@ header {
         color: white; 
     }   
 }
-/* -- TABLET -- */
+/*  TABLET  */
 @media (min-width: 576px) and (max-width: 992px) {
     .contenedor_menu img {
         width: 100%;
@@ -802,7 +847,7 @@ header {
         color: white; 
     }
 } 
-/*  -- DEKSTOP -- */
+/* DEKSTOP */
 @media (min-width: 992px) {   
 
     .contenedor_menu img {
@@ -827,9 +872,8 @@ header {
         display: flex;
         margin: 20px;
     }
-    .iframe-texto {
-        display: flex;
-        text-align: center;
-        align-items: center;
+    .section-menu h2 {
+        font-size: 50px;
+    
     }
-} 
+}
